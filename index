@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>凌群電腦實習成果展示</title>
+  <style>
+    /* === 全域設定 === */
+    body {
+      font-family: "Noto Sans TC", Arial, sans-serif;
+      margin: 0;
+      background: #f8f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0099cc, #66ccff);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+    /* === 主內容區 === */
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .intro img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 8px;
+      margin-top: 20px;
+      object-fit: cover;
+      background: #e0e0e0;
+    }
+
+    /* === 實習生網站連結區 === */
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #007acc;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #f0f0f0;
+      color: #666;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>凌群電腦實習成果展示</h1>
+    <p>分享實習同學的學習心得與成果網站</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>公司簡介與活動花絮</h2>
+      <p>這裡可以放一張公司或實習活動的代表圖片：</p>
+      <!-- ⬇️ 圖片位置：請將照片命名為 company.jpg 並放在根目錄 -->
+      <img src="company.jpg" alt="凌群電腦實習活動照片" />
+    </section>
+
+    <section class="links">
+      <div class="card">
+        <h3>Arthur – 實習經驗分享</h3>
+        <p><a href="https://arthur-1219.github.io/arthur12/" target="_blank">前往網站</a></p>
+      </div>
+
+      <div class="card">
+        <h3>葉明蓁 – 實習報告</h3>
+        <p><a href="https://melindayeh0514.wixsite.com/my-site" target="_blank">前往網站</a></p>
+      </div>
+
+      <div class="card">
+        <h3>1111745 – 作品集</h3>
+        <p><a href="https://a0909953601.wixsite.com/1111745" target="_blank">前往網站</a></p>
+      </div>
+
+      <div class="card">
+        <h3>劉懿嫻 – 實習心得分享</h3>
+        <p><a href="https://smallin12.github.io./yi-salty-liu/" target="_blank">前往網站</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 凌群電腦股份有限公司 | 實習成果展示平台
+  </footer>
+</body>
+</html>
