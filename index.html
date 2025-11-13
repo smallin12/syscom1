@@ -87,6 +87,22 @@
       color: #666;
       margin-top: 50px;
     }
+/* 地圖樣式 */
+    .map-container {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 350px;
+      margin-top: 1rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    
   </style>
 </head>
 <body>
@@ -310,9 +326,18 @@
         📍 地址：台北市萬華區峨眉街 115 號 6 樓<br>
         💌 Email：<a href="mailto:service@syscom.com.tw">service@syscom.com.tw</a>
       </p>
+
+ <div class="map-container">
+        <!-- Google Maps 嵌入代碼 -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2452874269985!2d121.50573297500456!3d25.02256297782323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a97287b4e12f%3A0x7f6a5f28a0dce5b8!2z5paw5p6X5paH5a245a6_5bel56iL5aSn5a246Zmi!5e0!3m2!1szh-TW!2stw!4v1731494082234!5m2!1szh-TW!2stw" 
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+       
     </section>
-
-
 
 
     
